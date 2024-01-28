@@ -1,0 +1,15 @@
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\bin\Debug\net6.0\Persistance.deps.json
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\bin\Debug\net6.0\Persistance.dll
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\bin\Debug\net6.0\Persistance.pdb
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\obj\Debug\net6.0\Persistance.csproj.AssemblyReference.cache
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\obj\Debug\net6.0\Persistance.GeneratedMSBuildEditorConfig.editorconfig
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\obj\Debug\net6.0\Persistance.AssemblyInfoInputs.cache
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\obj\Debug\net6.0\Persistance.AssemblyInfo.cs
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\obj\Debug\net6.0\Persistance.csproj.CoreCompileInputs.cache
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\obj\Debug\net6.0\Persistance.dll
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\obj\Debug\net6.0\refint\Persistance.dll
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\obj\Debug\net6.0\Persistance.pdb
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\obj\Debug\net6.0\ref\Persistance.dll
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\bin\Debug\net6.0\Domain.dll
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\bin\Debug\net6.0\Domain.pdb
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\Persistance\obj\Debug\net6.0\Persistance.csproj.CopyComplete

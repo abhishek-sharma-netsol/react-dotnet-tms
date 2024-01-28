@@ -1,0 +1,15 @@
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\bin\Debug\net6.0\ServiceAbstraction.deps.json
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\bin\Debug\net6.0\ServiceAbstraction.dll
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\bin\Debug\net6.0\ServiceAbstraction.pdb
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\obj\Debug\net6.0\ServiceAbstraction.csproj.AssemblyReference.cache
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\obj\Debug\net6.0\ServiceAbstraction.GeneratedMSBuildEditorConfig.editorconfig
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\obj\Debug\net6.0\ServiceAbstraction.AssemblyInfoInputs.cache
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\obj\Debug\net6.0\ServiceAbstraction.AssemblyInfo.cs
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\obj\Debug\net6.0\ServiceAbstraction.csproj.CoreCompileInputs.cache
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\obj\Debug\net6.0\ServiceAbstraction.dll
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\obj\Debug\net6.0\refint\ServiceAbstraction.dll
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\obj\Debug\net6.0\ServiceAbstraction.pdb
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\obj\Debug\net6.0\ref\ServiceAbstraction.dll
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\bin\Debug\net6.0\Domain.dll
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\bin\Debug\net6.0\Domain.pdb
+E:\Abhishek Sharma 2022\Projects\TMS\TMS\ServiceAbstraction\obj\Debug\net6.0\ServiceAbstraction.csproj.CopyComplete

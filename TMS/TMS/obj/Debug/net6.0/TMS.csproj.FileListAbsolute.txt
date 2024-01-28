@@ -78,4 +78,3 @@ E:\Abhishek Sharma 2022\Projects\TMS\TMS\TMS\bin\Debug\net6.0\Microsoft.AspNetCo
 E:\Abhishek Sharma 2022\Projects\TMS\TMS\TMS\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 E:\Abhishek Sharma 2022\Projects\TMS\TMS\TMS\bin\Debug\net6.0\client-app\package-lock.json
 E:\Abhishek Sharma 2022\Projects\TMS\TMS\TMS\bin\Debug\net6.0\client-app\package.json
-E:\Abhishek Sharma 2022\Projects\TMS\TMS\TMS\bin\Debug\net6.0\client-app\public\manifest.json

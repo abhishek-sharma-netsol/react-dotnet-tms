@@ -1,9 +1,8 @@
-import { useNavigate } from 'react-router-dom'; // Assuming you're using React Router for navigation
-import Container from '../container.component';
-import Logout from './logout.component'
+import { useNavigate } from 'react-router-dom';
+import { Logout } from './index'
 
 const Header = () => {
-    const isAuthenticated = localStorage.getItem("id");
+    const authStatus = localStorage.getItem("status");
     const navigate = useNavigate();
 
     const navItems = [
@@ -15,40 +14,38 @@ const Header = () => {
         {
             name: 'Dashboard',
             slug: '/dashboard',
-            active: isAuthenticated,
+            active: authStatus,
         },
         {
             name: 'Login',
             slug: '/login',
-            active: !isAuthenticated,
+            active: !authStatus,
         },
         {
             name: 'Signup',
             slug: '/signup',
-            active: !isAuthenticated
+            active: !authStatus
         },
     ];
 
     const activeNavItems = navItems.filter(n => n.active);
 
     return (
-        <header className="bg-gray-800 text-white p-4">
-            <Container>
-                <div className="flex justify-between items-center">
-                    <div className="flex space-x-4 justify-center items-center">
-                        {activeNavItems.map((item, index) => (
-                            <button key={index} to={item.slug}
-                                className={`text-lg font-bold ${item.active ? 'text-blue-300' : ''}`}
-                                onClick={() => navigate(item.slug)}
-                            >
-                                {item.name}
-                            </button>
-                        ))}
-                        {isAuthenticated && <Logout />}
-                    </div>
+        <header className="bg-gray-500 text-white p-4 mb-4">
+            <div className="flex justify-between items-center">
+                <div className="flex space-x-4 justify-center items-center">
+                    {activeNavItems.map((item, index) => (
+                        <button key={index} to={item.slug}
+                            className={`text-lg font-bold ${item.active ? 'text-blue-300' : ''}`}
+                            onClick={() => navigate(item.slug)}
+                        >
+                            {item.name}
+                        </button>
+                    ))}
+                    {authStatus && <Logout />}
                 </div>
-            </Container>
-        </header>
+            </div>
+        </header >
     );
 };
 

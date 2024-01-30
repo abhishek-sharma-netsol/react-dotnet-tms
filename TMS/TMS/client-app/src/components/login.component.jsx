@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Input, Button } from './index'
 import { useDispatch } from 'react-redux';
-import { login as loginReducer } from '../store/auth-slice'
+import { login as loginReducer } from '../redux/auth/auth-slice'
 import authService from '../services/auth.service';
 import { useNavigate } from 'react-router-dom';
 

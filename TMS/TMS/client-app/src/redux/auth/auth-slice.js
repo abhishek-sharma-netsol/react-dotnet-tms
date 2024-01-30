@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
-    status: false,
+    status: localStorage.getItem('status'),
     token: localStorage.getItem('token'),
     user: {
         username: localStorage.getItem('username'),
@@ -20,10 +20,12 @@ const authSlice = createSlice({
                 username: actions.payload.username,
                 id: actions.payload.id,
             }
+            state.error = null;
 
-            localStorage.setItem("token", actions.payload.token);
-            localStorage.setItem("username", actions.payload.username);
-            localStorage.setItem("id", actions.payload.id);
+            localStorage.setItem('status', true);
+            localStorage.setItem('token', actions.payload.token);
+            localStorage.setItem('username', actions.payload.username);
+            localStorage.setItem('id', actions.payload.id);
         },
 
         logout: (state) => {
@@ -33,7 +35,8 @@ const authSlice = createSlice({
 
             localStorage.clear();
         }
-    }
+
+    },
 });
 
 export const { login, logout } = authSlice.actions;

@@ -10,7 +10,7 @@ const Button = ({ children,
     return (
         <button type={`${type}`}
             className={`px-4 py-2 rounded focus:outline-none focus:ring-2
-             focus:ring-blue-500 ${bgColor} ${textColor} ${className}`}
+             focus:ring-blue-500 hover:bg-blue-700 ${bgColor} ${textColor} ${className}`}
             {...props}>
             {children}
         </button>

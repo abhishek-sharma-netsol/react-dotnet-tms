@@ -6,7 +6,7 @@ const Input = forwardRef(
         const id = useId();
 
         return (
-            <div className='mb-4'>
+            <div className='mb-2'>
                 {label &&
                     <label className='block text-sm font-bold mb-2' htmlFor={id}>
                         {label}

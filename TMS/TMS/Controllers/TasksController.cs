@@ -22,7 +22,7 @@ namespace TMS.Controllers
         }
 
         [HttpGet("user/{id}")]
-        public async Task<IActionResult> GetByUserIdAsync(long id)
+        public async Task<IActionResult> GetByUserId(long id)
         {
             return Ok(await _serviceManager.TasksService.GetAllByUserIdASync(id));
         }

@@ -1,11 +1,14 @@
 import { useDispatch } from "react-redux"
-import { logout as logoutReducer } from '../../store/auth-slice';
+import { logout as logoutReducer } from '../../redux/auth/auth-slice.js';
+import { useNavigate } from "react-router-dom";
 
 const Logout = () => {
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const handleClick = () => {
         dispatch(logoutReducer({}));
+        navigate("/");
     }
 
     return (

@@ -1,6 +1,6 @@
-import Home from "./home.component";
-import Login from './login.component';
-import Dashboard from './dashboard.component';
+import Home from "./home.page";
+import Login from './login.page';
+import Dashboard from './dashboard.page';
 
 export {
     Home,
